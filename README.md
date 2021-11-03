@@ -1,16 +1,14 @@
-# Data Liquida : Contraloria General de la Republica
+# Data Liquida
 
-Proyecto para implementar la API Form Reconizer de Azure para la extracción de información de los 
-documentos de la Contraloría General de la Republica.
+Proyecto para implementar la API Form Reconizer de Azure para la extracción de documentos a través de la API de Forms Reconizer.
 
 ## Descripción
 
 Esta libraría esta constituida por una serie de herramientas que sirven para la extracción de información 
-de los diversos dodocumentos que posee la Contraloria Generala de la Republica. No solamente se implementa
-la API Forms Reconizer de Azure, sino también provee un conjunto de herramientas que ejecuten un proceso
-automatico para le etracción de termino en forma de llave valor. También existen técnicas y procesos que 
-permiten  la extraciión cruda del texto y refinarlo para mejorar el rendimiento de la extracción de la 
-información.
+de diversos documentos. No solamente se implementa la API Forms Reconizer de Azure, sino también provee un
+conjunto de herramientas que ejecuten un proceso automatico para le etracción de termino en forma de llave valor. 
+También existen técnicas y procesos que permiten  la extraciión cruda del texto y refinarlo para mejorar el rendimiento 
+de la extracción de la información.
 
 La arquitectura objetivo de esta solución esta basada en la nube, en especifico sobre Azure Databricks. Por esta
 razón, la mayoría de las transformaciones estan basado en el uso de Apache Spark y del lago de datos de GEN2 de 
